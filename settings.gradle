@@ -1,0 +1,3 @@
+//include ':dynamic', ':lib_plugin' // 宿主
+//include ':plugin', ':lib_plugin' // 插件module
+include ':dynamic', ':plugin', ':lib_plugin'
