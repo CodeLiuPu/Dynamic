@@ -21,7 +21,7 @@ import java.lang.reflect.Method;
 import dalvik.system.DexClassLoader;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String TAG = "Hook MainActivity";
     Activity activity;
     TextView tv;
 
