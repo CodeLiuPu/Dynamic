@@ -1,7 +1,7 @@
-package com.update.plugin;
+package com.update.plugin.demo;
 
-import com.update.lib_plugin.IBean;
-import com.update.lib_plugin.ICallback;
+import com.update.lib_plugin.demo.IBean;
+import com.update.lib_plugin.demo.ICallback;
 
 /**
  * @author : liupu

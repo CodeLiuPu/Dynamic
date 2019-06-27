@@ -1,4 +1,4 @@
-package com.update.lib_plugin;
+package com.update.lib_plugin.demo;
 
 /**
  * @author : liupu

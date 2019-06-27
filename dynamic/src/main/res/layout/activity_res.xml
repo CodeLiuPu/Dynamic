@@ -13,13 +13,13 @@
         android:id="@+id/btn1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="class" />
+        android:text="简单调用" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="资源" />
+        android:text="带参数调用" />
 
     <Button
         android:id="@+id/btn3"
