@@ -59,11 +59,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         plugins.put(pluginName,new PluginInfo(dexPath,classLoader));
     }
 
-    protected void loadResources(String dexPath) {
+    protected void loadResources(String pluginName) {
         try {
             AssetManager am = AssetManager.class.newInstance();
             Method method = am.getClass().getMethod("addAssetPath", String.class);
-            method.invoke(am, dexPath);
+            method.invoke(am, plugins.get(pluginName).getDexPath());
             mAssetManager = am;
         } catch (Exception e) {
             e.printStackTrace();

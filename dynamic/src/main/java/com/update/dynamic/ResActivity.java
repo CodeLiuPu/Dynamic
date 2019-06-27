@@ -24,7 +24,7 @@ public class ResActivity extends BaseActivity {
         findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadResources(plugins.get(pluginName1).getDexPath());
+                loadResources(pluginName1);
                 changeView(pluginName1);
             }
         });
