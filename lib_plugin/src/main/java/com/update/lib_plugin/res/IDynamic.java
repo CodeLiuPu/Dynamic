@@ -1,6 +1,7 @@
 package com.update.lib_plugin.res;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 
 /**
  * @author : liupu
@@ -8,5 +9,6 @@ import android.content.Context;
  * desc   :
  */
 public interface IDynamic {
-    String getStringForResId(Context context);
+    String getString(Context context);
+    Drawable getImageDrawable(Context context);
 }
