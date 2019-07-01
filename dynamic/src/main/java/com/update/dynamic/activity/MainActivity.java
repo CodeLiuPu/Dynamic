@@ -3,19 +3,16 @@ package com.update.dynamic.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import com.update.dynamic.R;
 import com.update.dynamic.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
-    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv = findViewById(R.id.tv);
 
         findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,15 +25,8 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(activity,ResActivity.class);
+                Intent intent = new Intent(activity, ResActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
             }
         });
 
