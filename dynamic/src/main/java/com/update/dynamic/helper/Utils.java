@@ -3,7 +3,7 @@ package com.update.dynamic.helper;
 import android.content.Context;
 import android.content.res.AssetManager;
 
-import com.update.dynamic.App;
+import com.update.dynamic.app.App;
 
 import java.io.Closeable;
 import java.io.File;

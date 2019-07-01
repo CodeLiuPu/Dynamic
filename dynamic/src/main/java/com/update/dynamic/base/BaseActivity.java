@@ -1,4 +1,4 @@
-package com.update.dynamic;
+package com.update.dynamic.base;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.update.dynamic.data.PluginInfo;
 import com.update.dynamic.helper.Utils;
 
 import java.io.File;
@@ -33,7 +34,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     protected Map<String, PluginInfo> plugins = new HashMap<>();
 
-    Activity activity;
+    protected Activity activity;
 
     @Override
     protected void attachBaseContext(Context newBase) {

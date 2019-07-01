@@ -1,4 +1,4 @@
-package com.update.dynamic;
+package com.update.dynamic.activity;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.update.dynamic.R;
+import com.update.dynamic.base.BaseActivity;
 import com.update.lib_plugin.res.IDynamic;
 
 public class ResActivity extends BaseActivity {

@@ -1,4 +1,4 @@
-package com.update.dynamic;
+package com.update.dynamic.activity;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.update.dynamic.R;
+import com.update.dynamic.base.BaseActivity;
 import com.update.lib_plugin.demo.IBean;
 import com.update.lib_plugin.demo.ICallback;
 

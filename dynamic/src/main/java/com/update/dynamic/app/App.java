@@ -1,4 +1,4 @@
-package com.update.dynamic;
+package com.update.dynamic.app;
 
 import android.app.Application;
 import android.content.Context;

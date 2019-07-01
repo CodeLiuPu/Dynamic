@@ -1,9 +1,12 @@
-package com.update.dynamic;
+package com.update.dynamic.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.update.dynamic.R;
+import com.update.dynamic.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
     TextView tv;
@@ -17,7 +20,7 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(activity,DemoActivity.class);
+                Intent intent = new Intent(activity, DemoActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,4 +1,4 @@
-package com.update.dynamic;
+package com.update.dynamic.data;
 
 import dalvik.system.DexClassLoader;
 
